@@ -50,7 +50,7 @@ margin: auto;
     justify-content: flex-end;
 }
 .flex-nav > div {
-    gap: 80%;
+    margin: 10px;
     
 }
 
