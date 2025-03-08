@@ -41,9 +41,7 @@ margin: auto;
 .home {
     float: left;
 }
-.nav-float{
-    float: right;
-}
+
 .flex-nav {
     display:flex;
     flex-direction: row;
