@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Gasoek+One&family=Ruwudu:wght@400;500;600;700&display=swap" rel="stylesheet">
         <title>Arianne Mina Student Website</title>
-    </head>.
+    </head>
     <body></body>
+
      <!-- navigation --> 
      <nav>
-        <a href="#header">home</a>
-        <div class="flex-nav">
-          <div><a href="#about">about</a></div>
+       <!-- <div class="flex-nav">  -->
+        <div class="home"><a href="#header">home</a></div>
+        <div class="nav-float"> 
+        <div><a href="#about">about</a></div>
             <div><a href="#skills">skills</a></div>
               <div><a href="#work">work</a></div>
-                <div> <a href="#faq">faq</a></div>
-        </div>
+                <div><a href="#faq">faq</a></div>
+                </div> 
+        <!-- </div> -->
      </nav> 
+
      <!-- header -->
       <section id="header">
         <div>
-          <h2>Get to know</h2>
+          <p class="gtk">Get to know</p>
         </div>
         <div>
         <h1 class="head">ARIANNE MINA</h1>
         </div>
       </section>
+
      <!-- about -->
       <section id="about">
         <div>
@@ -34,38 +39,46 @@
             <p>"Hi! My name is Arianne Mina but I prefer to be called Ari. I am a Multimedia/ Graphic arts major at San Diego State University hoping to graduate by 2025. I’m a San Diego native and enjoy all things art related. My hobbies include film photography, video games, embroidery, rug making, pop punk music, and coffee."</p>
         </div>
       </section>
+
      <!-- skills -->
-      
       <section  id="skills">
         <h2 class="subhead">MY SKILLS</h2>
-        <div class="flex-container">
-        <div><img src="images/photoshop-logo.png" alt="Photoshop Logo"></div>
-        <p>Photoshop</p>
-        <div><img src="images/Illustrator-logo.png" alt="Illustrator Logo"></div>
-        <p>Illustrator</p>
-        <div><img src="images/indesign-logo.png" alt="InDesign Logo"></div>
-        <p>InDesign</p>
-        <div><img src="images/comp-icon.svg" alt="Computer Icon"></div>
-        <p>3D Design</p>
-        <div><img src="images/vase-icon.jpg" alt="Vase Icon"></div>
-        <p>Ceramics</p>
-        <div><img src="images/camera-icon.svg" alt="Caamera Icon"></div>
-        <p>Photography</p>
+        <div class="flex-skill1">
+        <div class="img-container"><img src="images/photoshop-logo.png" alt="Photoshop Logo" style="height:126px;"></div>
+        <div class="img-container"><img src="images/Illustrator-logo.png" alt="Illustrator Logo" style="height:126px;"></div>
+        <div class="img-container"><img src="images/indesign-logo.png" alt="InDesign Logo" style="height:126px;"></div>
+        </div>
+        <div class="flex-skill1-text">
+          <div><p>Photoshop</p></div>
+            <div><p>Illustrator</p></div>
+              <div><p>InDesign</p></div>
+      </div>
+      <div class="flex-skill2">
+        <div><img src="images/comp-icon.svg" alt="Computer Icon" style="height:126px;"></div>
+        <div><img src="images/vase-icon.jpg.png" alt="Vase Icon" style="height:126px;"></div>
+        <div><img src="images/camera-icon.svg" alt="Caamera Icon" style="height:126px;"></div>
+        </div>
+        <div class="flex-skill2-text">
+        <div><p>3D Design</p></div>
+        <div><p>Ceramics</p></div>
+        <div><p>Photography</p></div>
         </div>
       </section>
+
      <!-- work -->   
        <section id="work">
        <H2 class="subhead"> MY WORK</H2> 
-       <div>
-        <img src="images/BEAN-BAG.jpg" alt="Bean Bag">
-        <img src="images/STICKERS.jpg" alt="Stickers">
-        <img src="images/TOGO-CUP.jpg" alt="Togo Cups">
+       <div class="flex-work">
+        <div><img src="images/BEAN-BAG.jpg" alt="Bean Bag"></div>
+        <div><img src="images/STICKERS.jpg" alt="Stickers"></div>
+        <div><img src="images/TOGO-CUP.jpg" alt="Togo Cups"></div>
        </div>
       </section>
+
      <!-- faq -->  
       <section id="faq">
         <h2>F.A.Q.</h2>
-        <div>
+        <div class="prompts" style="text-align: justify;">
         <h3>when will you be graduating sdsu?</h3>
         <p>I intended to graduate this May 2025!</p>
         <h3>what do you have planned after graduating?</h3>
