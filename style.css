@@ -17,6 +17,7 @@ letter-spacing: 2px;
 }
 
 .head {
+    color: #34553E;
     font-family: "Gasoek One";
 font-size: 96px;
 font-style: normal;
@@ -24,7 +25,9 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 3px;
 text-transform: uppercase;
-padding-bottom: 50px;
+margin-top: 0;
+padding-top: 0%;
+margin: auto;
 }
 
 .body {
@@ -35,22 +38,48 @@ padding-bottom: 50px;
     line-height: normal;
     letter-spacing: 2px;
 }
-
+.home {
+    float: left;
+}
+.nav-float{
+    float: right;
+}
 .flex-nav {
     display:flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 .flex-nav > div {
-    margin: 20px;
+    gap: 80%;
+    
 }
 
 nav {
-    font-size: 24px;
-    color: #34553E;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: Belanosima;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+p.gtk {
+    font-family: Belanosima;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 6px;
+text-transform: uppercase;
+bottom: 0;
 }
 
 h2 {
     font-family: Belanosima;
+    color: #2A4432;
     text-align: center;
     font-size: 40px;
     letter-spacing: 6px;
@@ -75,13 +104,77 @@ margin: auto;
     padding: 10px 70px;
 }
 
+.flex-skill1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+}
+.flex-skill1 > div {
+    width: 150px;
+height: 150px;
+padding-bottom: 40px;
+}
+
+.flex-skill1-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+}
+
+.flex-skill2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+}
+.flex-skill2 > div {
+    width: 150px;
+height: 150px;
+padding-bottom: 40px;
+}
+
+.flex-skill2-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+}
+
 #work {
     width: 1235px;
+    align-items: center;
      height: 377px; 
      background: #E0D7B1; 
      border-radius: 30px;
      margin: auto;
+     border-radius: 30px;
 }
+.flex-work {
+    display: flex;
+    padding: 0px 56px;
+    align-items: flex-start;
+    gap: 35px;
+}
+.flex-work > div {
+    margin: 20px;
+    border-radius: 30px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+ /* .img-container { 
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
 
 .flex-container {
     display: flex;
@@ -95,6 +188,7 @@ margin: auto;
 }
 
 #faq {
+    color: #2A4432;
     text-align: left;
     width: 1056px;
     height: 1016px;
@@ -102,8 +196,30 @@ margin: auto;
     margin: auto;
 }
 
+p.prompts {
+    text-align: left;
+}
+
+h3 { 
+    font-family: Belanosima;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 20%; /* 4.8px */
+    text-underline-offset: 25%; /* 6px */
+    text-underline-position: from-font;
+    padding-bottom: 10px;
+}
+
 footer {
     background-color: #e0d7b1;
     padding: 10px;
     text-align: center;
+    border-radius: 30px;
+    margin: auto;
 }
